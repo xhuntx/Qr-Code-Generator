@@ -1,4 +1,4 @@
-('/Users/huntergoat/Documents/Qr Code Generator/build/qrGen/PYZ-00.pyz',
+('/Users/huntergoat/Documents/Qr-Code-Generator/build/qrGen/PYZ-00.pyz',
  [('PIL',
    '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/PIL/__init__.py',
    'PYMODULE'),
