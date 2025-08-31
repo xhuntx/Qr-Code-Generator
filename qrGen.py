@@ -38,6 +38,7 @@ while True:
         img = qr.make_image(fill_color="black", back_color="white")
         save1= pathlib.Path.home() / "Downloads"/ "QR Code.png"
         img.save(save1)    
+        print(f"Your QR code was saved in {save1}")
         t.sleep(1)
         break
     else:
