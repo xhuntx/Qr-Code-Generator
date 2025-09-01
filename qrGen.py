@@ -12,7 +12,7 @@ qr = qrcode.QRCode(
 )
 while True:
     if userChoice == "link":
-        link = input("Enter a valid link.")
+        link = input("Enter a valid link. ")
         qr.add_data(link)
         qr.make(fit=True)
 
@@ -27,7 +27,7 @@ while True:
         t.sleep(1)
         break
     elif userChoice == "wifi":
-        wifiLink1 = input("Enter a valid wifi code")
+        wifiLink1 = input("Enter a valid wifi code ")
         qr.add_data(wifiLink1)
         qr.make(fit=True) 
         
